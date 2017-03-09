@@ -5,14 +5,14 @@
   <key>author</key>
   <string>wyze</string>
   <key>name</key>
-  <string>Hybrid Next</string>
+  <string>Hybrid Next </string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#242e33</string>
+        <string>#333333</string>
         <key>caret</key>
         <string>#8abeb7</string>
         <key>foreground</key>
