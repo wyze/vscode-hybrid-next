@@ -2,7 +2,7 @@
 
 ### [v2.0.1](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.0.1) (2017-03-12)
 
-
+* **No new changes!** Accidental publish because I thought v2.0.0 didn't publish correctly.
 
 ### [v2.0.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.0.0) (2017-03-12)
 
