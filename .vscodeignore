@@ -2,15 +2,15 @@
 .*DS_Store
 
 # Git
-.github
-.vscode
+.github/**
+.vscode/**
 .editorconfig
 .gitattributes
 yarn.lock
 
 # Dependencies
-node_modules
+node_modules/**
 
 # Build
-scripts
+scripts/**
 *.vsix
