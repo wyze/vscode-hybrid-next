@@ -908,6 +908,117 @@
         <string>#{red}</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Variables (GraphQL)</string>
+      <key>scope</key>
+      <string>
+        source.graphql meta.variables,
+        source.graphql meta.arguments
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{lightGray2}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Variable Arguments (GraphQL)</string>
+      <key>scope</key>
+      <string>source.graphql variable.arguments</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{orange2}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constants (GraphQL)</string>
+      <key>scope</key>
+      <string>source.graphql constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{orange}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Fragment Name (GraphQL)</string>
+      <key>scope</key>
+      <string>
+        source.graphql variable.fragment,
+        source.graphql entity.name.fragment
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{lightBlue}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Directives (GraphQL)</string>
+      <key>scope</key>
+      <string>source.graphql entity.name.function.directive</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{markdown.orderedList}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Types (GraphQL)</string>
+      <key>scope</key>
+      <string>source.graphql support.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{red}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Braces (GraphQL)</string>
+      <key>scope</key>
+      <string>
+        source.graphql punctuation.operation,
+        source.graphql meta.brace.round
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{yellow}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Operator (GraphQL)</string>
+      <key>scope</key>
+      <string>source.graphql keyword.operator</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{yellow}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Punctuation (GraphQL)</string>
+      <key>scope</key>
+      <string>
+        source.graphql punctuation.colon,
+        source.graphql punctuation.comma
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{teal}</string>
+      </dict>
+    </dict>
   </array>
   <key>uuid</key>
   <string>d8d5e82e-3d5b-46b5-b38e-8c841c21347d</string>
