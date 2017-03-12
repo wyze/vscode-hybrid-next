@@ -2,7 +2,7 @@
   "name": "theme-hybrid-next",
   "displayName": "Hybrid Next",
   "description": "Hybrid Next theme for VS Code.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "publisher": "wyze",
   "engines": {
     "vscode": "^1.0.0"
