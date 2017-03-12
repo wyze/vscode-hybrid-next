@@ -1,5 +1,10 @@
 ## Change Log
 
+### [v2.1.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.1.0) (2017-03-12)
+
+* [[`71caa5a9a9`](https://github.com/wyze/vscode-hybrid-next/commit/71caa5a9a9)] - Add support for GraphQL files (Neil Kistner)
+* [[`30cf5b8590`](https://github.com/wyze/vscode-hybrid-next/commit/30cf5b8590)] - Add info to changelog about 2.0.1 version (Neil Kistner)
+
 ### [v2.0.1](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.0.1) (2017-03-12)
 
 * **No new changes!** Accidental publish because I thought v2.0.0 didn't publish correctly.
