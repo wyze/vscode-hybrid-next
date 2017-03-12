@@ -56,15 +56,13 @@ $ git clone https://github.com/wyze/vscode-hybrid-next.git wyze.theme-hybrid-nex
 
 > [Full Change Log](changelog.md)
 
-### [v1.2.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v1.2.0) (2017-03-09)
+### [v2.0.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.0.0) (2017-03-12)
 
-* [[`efd7f4cbc2`](https://github.com/wyze/vscode-hybrid-next/commit/efd7f4cbc2)] - Add color to comma in JS (Neil Kistner)
-* [[`47fcb67ead`](https://github.com/wyze/vscode-hybrid-next/commit/47fcb67ead)] - Add color to function parameters (Neil Kistner)
-* [[`4c2287a83f`](https://github.com/wyze/vscode-hybrid-next/commit/4c2287a83f)] - Automate release process a bit (Neil Kistner)
-* [[`6ad2d4c119`](https://github.com/wyze/vscode-hybrid-next/commit/6ad2d4c119)] - Remove some screenshots (Neil Kistner)
-* [[`0890c2c7b4`](https://github.com/wyze/vscode-hybrid-next/commit/0890c2c7b4)] - Change color for YAML tag (Neil Kistner)
-* [[`e8f3e74180`](https://github.com/wyze/vscode-hybrid-next/commit/e8f3e74180)] - Add support for JSON files (Neil Kistner)
-* [[`4745729304`](https://github.com/wyze/vscode-hybrid-next/commit/4745729304)] - Remove temp fix since it was patched by VSCode (Neil Kistner)
+* [[`a295cc6183`](https://github.com/wyze/vscode-hybrid-next/commit/a295cc6183)] - Add color for regex (Neil Kistner)
+* [[`578768c9ea`](https://github.com/wyze/vscode-hybrid-next/commit/578768c9ea)] - Better support for variables in template strings (Neil Kistner)
+* [[`1df4e097ea`](https://github.com/wyze/vscode-hybrid-next/commit/1df4e097ea)] - Update marketplace-url in readme (Neil Kistner)
+* [[`f0e20e33ed`](https://github.com/wyze/vscode-hybrid-next/commit/f0e20e33ed)] - Create build process to support variant themes (Neil Kistner)
+* [[`29017b5d97`](https://github.com/wyze/vscode-hybrid-next/commit/29017b5d97)] - Fix .vscodeignore because it doesn't work like npm/git (Neil Kistner)
 
 ## Build
 
