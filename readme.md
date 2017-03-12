@@ -42,8 +42,15 @@ $ git clone https://github.com/wyze/vscode-hybrid-next.git wyze.theme-hybrid-nex
 
 > Screenshots are using [Fira Code](https://github.com/tonsky/FiraCode) font.
 
+### Base
+
 ![JS](.github/media/js.png)
 ![HTML](.github/media/html.png)
+
+### Gray Background
+
+![Gray Background JS](.github/media/graybg-js.png)
+![Gray Background HTML](.github/media/graybg-html.png)
 
 ## Change Log
 
@@ -58,6 +65,17 @@ $ git clone https://github.com/wyze/vscode-hybrid-next.git wyze.theme-hybrid-nex
 * [[`0890c2c7b4`](https://github.com/wyze/vscode-hybrid-next/commit/0890c2c7b4)] - Change color for YAML tag (Neil Kistner)
 * [[`e8f3e74180`](https://github.com/wyze/vscode-hybrid-next/commit/e8f3e74180)] - Add support for JSON files (Neil Kistner)
 * [[`4745729304`](https://github.com/wyze/vscode-hybrid-next/commit/4745729304)] - Remove temp fix since it was patched by VSCode (Neil Kistner)
+
+## Build
+
+This will generate the themes to the `themes/` folder.
+
+```sh
+$ git clone https://github.com/wyze/vscode-hybrid-next.git
+$ cd vscode-hybrid-next
+$ npm install
+$ npm run build
+```
 
 ## Credits
 

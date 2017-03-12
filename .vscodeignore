@@ -4,8 +4,10 @@
 # Git
 .github/**
 .vscode/**
+**/.gitkeep
 .editorconfig
 .gitattributes
+.gitignore
 yarn.lock
 
 # Dependencies
@@ -13,4 +15,5 @@ node_modules/**
 
 # Build
 scripts/**
+src/**
 *.vsix

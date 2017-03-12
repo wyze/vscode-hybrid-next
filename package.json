@@ -33,18 +33,28 @@
         "label": "Hybrid Next",
         "path": "./themes/hybrid-next.tmTheme",
         "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Hybrid Next (Gray Background)",
+        "path": "./themes/hybrid-next-graybg.tmTheme",
+        "uiTheme": "vs-dark"
       }
     ]
   },
   "scripts": {
+    "build": "node scripts/build.js",
+    "build:watch": "sane 'npm run build' --glob='src/**' --glob='**/build.js'",
     "changelog": "changelog-maker --filter-release",
     "postversion": "vsce publish && vsce package",
     "publish": "np --yolo --no-publish",
-    "version": "node scripts/version.js"
+    "version": "node scripts/version.js",
+    "vscode:prepublish": "npm run build"
   },
   "devDependencies": {
     "changelog-maker": "^2.2.5",
     "execa": "^0.6.0",
-    "read-pkg": "^2.0.0"
+    "pupa": "^1.0.0",
+    "read-pkg": "^2.0.0",
+    "sane": "^1.6.0"
   }
 }

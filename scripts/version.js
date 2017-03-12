@@ -42,7 +42,7 @@ const updateReadme = formatted => {
   const file = 'readme.md'
   const readme = readFile(file).toString().split('\n')
   const start = '> [Full Change Log](changelog.md)'
-  const end = '## Credits'
+  const end = '## Build'
 
   writeFile(
     file,
