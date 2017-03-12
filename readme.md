@@ -89,4 +89,4 @@ MIT © [Neil Kistner](https://neilkistner.com)
 [installs-image]: http://vsmarketplacebadge.apphb.com/installs/wyze.theme-hybrid-next.svg
 [rating-image]: http://vsmarketplacebadge.apphb.com/rating-short/wyze.theme-hybrid-next.svg
 
-[marketplace-url]: https://marketplace.visualstudio.com/items/wyze.theme-hybrid-next
+[marketplace-url]: https://vsm.li/wyze.theme-hybrid-next
