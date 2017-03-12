@@ -377,11 +377,14 @@
       <key>name</key>
       <string>String Template (JS)</string>
       <key>scope</key>
-      <string>meta.template.expression.js</string>
+      <string>
+        string.template variable.other,
+        string.template punctuation.accessor
+      </string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string></string>
+        <string>#{lightGray2}</string>
       </dict>
     </dict>
     <dict>

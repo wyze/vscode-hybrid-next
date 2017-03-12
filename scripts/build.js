@@ -25,6 +25,7 @@ const base = {
   greenYellow: greenYellow(),
   lightBlue: lightBlue(),
   lightGray: lightGray(),
+  lightGray2: lightGray('bb'), // String template variables
   orange: orange(),
   orange2: orange('bb'), // Function arguments
   lime: 'a6e22e',
