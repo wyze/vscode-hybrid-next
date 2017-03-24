@@ -1,5 +1,9 @@
 ## Change Log
 
+### [v2.2.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.2.0) (2017-03-24)
+
+* [[`de84d83910`](https://github.com/wyze/vscode-hybrid-next/commit/de84d83910)] - Add better support for Reason (Neil Kistner)
+
 ### [v2.1.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.1.0) (2017-03-12)
 
 * [[`71caa5a9a9`](https://github.com/wyze/vscode-hybrid-next/commit/71caa5a9a9)] - Add support for GraphQL files (Neil Kistner)
