@@ -1019,6 +1019,72 @@
         <string>#{teal}</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Class/JSX Components (Reason)</string>
+      <key>scope</key>
+      <string>source.reason entity.name.class</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{orange}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSX Tags (Reason)</string>
+      <key>scope</key>
+      <string>source.reason entity.name.tag.inline.any</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{orange2}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>JSX Props (Reason)</string>
+      <key>scope</key>
+      <string>source.reason markup.inserted constant.language</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{lightGray2}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Types (Reason)</string>
+      <key>scope</key>
+      <string>source.reason support.type string.regexp</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{red}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Control (Reason)</string>
+      <key>scope</key>
+      <string>source.reason keyword.control</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{teal}</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constant (Reason)</string>
+      <key>scope</key>
+      <string>source.reason constant.numeric</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{lightBlue}</string>
+      </dict>
+    </dict>
   </array>
   <key>uuid</key>
   <string>d8d5e82e-3d5b-46b5-b38e-8c841c21347d</string>
