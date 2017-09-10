@@ -34,8 +34,8 @@ const base = {
   orange: orange(),
   orange2: orange('bb'), // Function arguments
   lime: 'a6e22e',
-  green: 'b5bd68',
-  lightGreen: '8c9440',
+  green: '8c9440',
+  lightGreen: 'b5bd68',
   blue: '81a2be',
   purple: 'b294bb',
   darkPurple: '85678f',
