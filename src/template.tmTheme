@@ -23,6 +23,38 @@
         <string>#{settings.lineHighlight}</string>
         <key>selection</key>
         <string>#{settings.selection}</string>
+        <key>ansiBlack</key>
+        <string>#{black}</string>
+        <key>ansiBrightBlack</key>
+        <string>#{gray}</string>
+        <key>ansiRed</key>
+        <string>#{darkRed}</string>
+        <key>ansiBrightRed</key>
+        <string>#{red}</string>
+        <key>ansiGreen</key>
+        <string>#{green}</string>
+        <key>ansiBrightGreen</key>
+        <string>#{lightGreen}</string>
+        <key>ansiYellow</key>
+        <string>#{orange}</string>
+        <key>ansiBrightYellow</key>
+        <string>#{yellow}</string>
+        <key>ansiBlue</key>
+        <string>#{blue}</string>
+        <key>ansiBrightBlue</key>
+        <string>#{lightBlue}</string>
+        <key>ansiMagenta</key>
+        <string>#{darkPurple}</string>
+        <key>ansiBrightMagenta</key>
+        <string>#{purple}</string>
+        <key>ansiCyan</key>
+        <string>#{cyan}</string>
+        <key>ansiBrightCyan</key>
+        <string>#{teal}</string>
+        <key>ansiWhite</key>
+        <string>#{grayBlue}</string>
+        <key>ansiBrightWhite</key>
+        <string>#{lightGray}</string>
       </dict>
     </dict>
     <dict>
