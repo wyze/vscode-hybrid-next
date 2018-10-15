@@ -52,14 +52,6 @@ $ git clone https://github.com/wyze/vscode-hybrid-next.git wyze.theme-hybrid-nex
 ![Gray Background JS](.github/media/graybg-js.png)
 ![Gray Background HTML](.github/media/graybg-html.png)
 
-## Change Log
-
-> [Full Change Log](changelog.md)
-
-### [v2.2.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.2.0) (2017-03-24)
-
-* [[`de84d83910`](https://github.com/wyze/vscode-hybrid-next/commit/de84d83910)] - Add better support for Reason (Neil Kistner)
-
 ## Build
 
 This will generate the themes to the `themes/` folder.
@@ -75,12 +67,20 @@ $ npm run build
 
 Thank you to [Kai Cataldo](//github.com/kaicataldo) for making the Hybrid Next theme for Atom.
 
+## Change Log
+
+> [Full Change Log](changelog.md)
+
+### [v2.2.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.2.0) (2017-03-24)
+
+* [[`de84d83910`](https://github.com/wyze/vscode-hybrid-next/commit/de84d83910)] - Add better support for Reason (Neil Kistner)
+
 ## License
 
 MIT © [Neil Kistner](https://neilkistner.com)
 
-[version-image]: http://vsmarketplacebadge.apphb.com/version/wyze.theme-hybrid-next.svg
-[installs-image]: http://vsmarketplacebadge.apphb.com/installs/wyze.theme-hybrid-next.svg
-[rating-image]: http://vsmarketplacebadge.apphb.com/rating-short/wyze.theme-hybrid-next.svg
+[version-image]: https://vsmarketplacebadge.apphb.com/version/wyze.theme-hybrid-next.svg
+[installs-image]: https://vsmarketplacebadge.apphb.com/installs/wyze.theme-hybrid-next.svg
+[rating-image]: https://vsmarketplacebadge.apphb.com/rating-short/wyze.theme-hybrid-next.svg
 
 [marketplace-url]: https://vsm.li/wyze.theme-hybrid-next
