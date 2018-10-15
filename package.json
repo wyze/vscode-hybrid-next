@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "pupa": "^1.0.0",
-    "sane": "^1.6.0",
+    "sane": "^4.0.1",
     "write-changelog": "^1.2.0"
   }
 }
