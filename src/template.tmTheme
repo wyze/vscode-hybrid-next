@@ -1117,6 +1117,21 @@
         <string>#{lightBlue}</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>C# String Interpolation</string>
+      <key>scope</key>
+      <string>
+        meta.interpolation.cs variable.other.object.cs,
+        meta.interpolation.cs variable.other.object.property.cs,
+        meta.interpolation.cs variable.other.readwrite.cs
+      </string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#{lightGray}</string>
+      </dict>
+    </dict>
   </array>
   <key>uuid</key>
   <string>d8d5e82e-3d5b-46b5-b38e-8c841c21347d</string>
