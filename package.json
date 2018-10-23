@@ -2,7 +2,7 @@
   "name": "theme-hybrid-next",
   "displayName": "Hybrid Next",
   "description": "Hybrid Next theme for VS Code.",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "publisher": "wyze",
   "engines": {
     "vscode": "^1.0.0"
@@ -19,7 +19,7 @@
     "url": "neilkistner.com"
   },
   "license": "MIT",
-  "icon": "images/icon.svg",
+  "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#5f757f",
     "theme": "dark"
@@ -44,17 +44,14 @@
   "scripts": {
     "build": "node scripts/build.js",
     "build:watch": "sane 'npm run build' --glob='src/**' --glob='**/build.js'",
-    "changelog": "changelog-maker --filter-release",
     "postversion": "vsce publish && vsce package",
     "publish": "np --yolo --no-publish",
-    "version": "node scripts/version.js",
+    "version": "write-changelog",
     "vscode:prepublish": "npm run build"
   },
   "devDependencies": {
-    "changelog-maker": "^2.2.5",
-    "execa": "^0.6.0",
     "pupa": "^1.0.0",
-    "read-pkg": "^2.0.0",
-    "sane": "^1.6.0"
+    "sane": "^4.0.1",
+    "write-changelog": "^1.2.0"
   }
 }
