@@ -26,6 +26,7 @@ const base = {
   },
   black,
   gray,
+  darkGray: '7a7a7a',
   grayBlue: '6c7a80',
   greenYellow: greenYellow(),
   lightBlue: lightBlue(),
