@@ -1,5 +1,9 @@
 ## Change Log
 
+### [v2.3.1](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.3.1) (2018-10-24)
+
+* [[`446643a981`](https://github.com/wyze/vscode-hybrid-next/commit/446643a981)] - Improve readability of ansiBrightBlack terminal color (#5) (Chris Lewis)
+
 ### [v2.3.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.3.0) (2018-10-15)
 
 * [[`3d1612e5f5`](https://github.com/wyze/vscode-hybrid-next/commit/3d1612e5f5)] - Convert icon to png (Neil Kistner)

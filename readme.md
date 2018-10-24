@@ -71,14 +71,9 @@ Thank you to [Kai Cataldo](//github.com/kaicataldo) for making the Hybrid Next t
 
 > [Full Change Log](changelog.md)
 
-### [v2.3.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.3.0) (2018-10-15)
+### [v2.3.1](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.3.1) (2018-10-24)
 
-* [[`3d1612e5f5`](https://github.com/wyze/vscode-hybrid-next/commit/3d1612e5f5)] - Convert icon to png (Neil Kistner)
-* [[`d0b8f977f8`](https://github.com/wyze/vscode-hybrid-next/commit/d0b8f977f8)] - Upgrade dependencies (Neil Kistner)
-* [[`4678f9c23d`](https://github.com/wyze/vscode-hybrid-next/commit/4678f9c23d)] - Update build process to use write-changelog package (Neil Kistner)
-* [[`099ff4bfe7`](https://github.com/wyze/vscode-hybrid-next/commit/099ff4bfe7)] - Meta file updates (Neil Kistner)
-* [[`8294355b3e`](https://github.com/wyze/vscode-hybrid-next/commit/8294355b3e)] - Add support for interpolated variables in C# (#3) (Chris Lewis)
-* [[`781f47e154`](https://github.com/wyze/vscode-hybrid-next/commit/781f47e154)] - Add ansi colors for intergrated terminal (#2) (Masayuki Izumi)
+* [[`446643a981`](https://github.com/wyze/vscode-hybrid-next/commit/446643a981)] - Improve readability of ansiBrightBlack terminal color (#5) (Chris Lewis)
 
 ## License
 
