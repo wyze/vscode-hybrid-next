@@ -71,9 +71,10 @@ Thank you to [Kai Cataldo](//github.com/kaicataldo) for making the Hybrid Next t
 
 > [Full Change Log](changelog.md)
 
-### [v2.3.1](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.3.1) (2018-10-24)
+### [v2.4.0](https://github.com/wyze/vscode-hybrid-next/releases/tag/v2.4.0) (2019-07-27)
 
-* [[`446643a981`](https://github.com/wyze/vscode-hybrid-next/commit/446643a981)] - Improve readability of ansiBrightBlack terminal color (#5) (Chris Lewis)
+* Change status bar background color ([@wyze](https://github.com/wyze) in [1271aa9](https://github.com/wyze/vscode-hybrid-next/commit/1271aa9))
+* Convert project to new structure ([@wyze](https://github.com/wyze) in [b5cca6c](https://github.com/wyze/vscode-hybrid-next/commit/b5cca6c))
 
 ## License
 
