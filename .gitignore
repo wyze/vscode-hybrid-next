@@ -2,7 +2,7 @@
 .*DS_Store
 
 # Build
-themes/*.tmTheme
+themes/*.json
 *.vsix
 
 # Dependencies

@@ -31,27 +31,37 @@
     "themes": [
       {
         "label": "Hybrid Next",
-        "path": "./themes/hybrid-next.tmTheme",
+        "path": "./themes/hybrid-next.json",
         "uiTheme": "vs-dark"
       },
       {
         "label": "Hybrid Next (Gray Background)",
-        "path": "./themes/hybrid-next-graybg.tmTheme",
+        "path": "./themes/hybrid-next-graybg.json",
         "uiTheme": "vs-dark"
       }
     ]
   },
   "scripts": {
-    "build": "node scripts/build.js",
-    "build:watch": "sane 'npm run build' --glob='src/**' --glob='**/build.js'",
-    "postversion": "vsce publish && vsce package",
-    "publish": "np --yolo --no-publish",
-    "version": "write-changelog",
-    "vscode:prepublish": "npm run build"
+    "build": "ts-node src/create.ts",
+    "prebuild": "rm -rf themes/*.json",
+    "prettier": "prettier --write \"src/*.ts\"",
+    "postversion": "github-release && vsce publish && vsce package",
+    "release": "np --yolo --no-publish --no-release-draft",
+    "version": "changelog",
+    "vscode:prepublish": "yarn build"
   },
   "devDependencies": {
-    "pupa": "^1.0.0",
-    "sane": "^4.0.1",
-    "write-changelog": "^1.2.0"
+    "@types/node": "^12.6.8",
+    "@wyze/changelog": "^1.0.0",
+    "@wyze/github-release": "^1.0.0",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
