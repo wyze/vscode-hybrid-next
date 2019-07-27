@@ -16,6 +16,7 @@ const createColors = ({
   ansiWhite,
   ansiYellow,
   background,
+  comment,
   foreground,
   invisibles,
 }: typeof base) => ({
@@ -240,7 +241,7 @@ const createColors = ({
   //"sideBar.background": "#252526",
   //"sideBar.dropBackground": "#ffffff1f",
   //"sideBarSectionHeader.background": "#80808033",
-  //"statusBar.background": "#007acc",
+  "statusBar.background": comment,
   //"statusBar.debuggingBackground": "#cc6633",
   //"statusBar.debuggingForeground": "#ffffff",
   //"statusBar.foreground": "#ffffff",
